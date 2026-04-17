@@ -1,0 +1,67 @@
+# =========================
+# Unity generated folders
+# =========================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Memory Captures
+MemoryCaptures/
+
+# =========================
+# Asset meta data should NOT be ignored
+# =========================
+!/[Aa]ssets/**/*.meta
+
+# =========================
+# Unity crash reports
+# =========================
+sysinfo.txt
+
+# =========================
+# Rider / Visual Studio
+# =========================
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Visual Studio Code
+.vscode/
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Builds (optional but recommended)
+# =========================
+*.apk
+*.aab
+*.exe
+*.app
+*.ipa
+
+# =========================
+# Addressables / caches
+# =========================
+/[Bb]uild/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Bb]uild/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.json
+
+# =========================
+# JetBrains Rider
+# =========================
+.idea/
