@@ -26,5 +26,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level1_UI.unity
     guid: 3a07c4be0d505804caa924f0dc1d0600
+  - enabled: 1
+    path: Assets/Scenes/NetworkManagerScene.unity
+    guid: cc6fca9a409ca9240ac1625297b73e06
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
