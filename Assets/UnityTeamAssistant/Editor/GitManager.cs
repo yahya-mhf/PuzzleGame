@@ -32,13 +32,23 @@ public static class GitManager
 
                 process.WaitForExit();
 
-                if (!string.IsNullOrWhiteSpace(error))
-                    Debug.LogError($"❌ Git {operationName} ERROR:\n{error}");
+                bool success = process.ExitCode == 0;
 
-                if (!string.IsNullOrWhiteSpace(output))
-                    Debug.Log($"📄 Git {operationName}:\n{output}");
+                if (success)
+                {
+                    if (!string.IsNullOrWhiteSpace(output))
+                        Debug.Log($"📄 Git {operationName}:\n{output}");
 
-                return error; // important for error tracking
+                    if (!string.IsNullOrWhiteSpace(error))
+                        Debug.Log($"⚠ Git {operationName} warning:\n{error}");
+
+                    return "";
+                }
+                else
+                {
+                    Debug.LogError($"❌ Git {operationName} FAILED:\n{error}\n{output}");
+                    return error;
+                }
             }
         });
     }
