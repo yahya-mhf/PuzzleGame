@@ -1,3 +1,9 @@
 {
-    "locks": []
+    "locks": [
+        {
+            "filePath": "Assets/Scenes/Level1_UI.unity",
+            "lockedBy": "YAHYA",
+            "timestamp": "4/20/2026 9:24:58 PM"
+        }
+    ]
 }
