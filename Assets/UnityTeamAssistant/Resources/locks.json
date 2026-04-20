@@ -1,3 +1,14 @@
 {
-    "Locks": []
+    "Locks": [
+        {
+            "Path": "Assets/Scenes/Level1_Players.unity",
+            "Owner": "yahya_mhf",
+            "Timestamp": "2026-04-20T21:22:37.2890842Z"
+        },
+        {
+            "Path": "Assets/Scenes/Level1_Players.unity.meta",
+            "Owner": "yahya_mhf",
+            "Timestamp": "2026-04-20T21:22:37.4025678Z"
+        }
+    ]
 }
